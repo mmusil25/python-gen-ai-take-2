@@ -8,9 +8,9 @@ pipe = StableDiffusionPipeline.from_pretrained(model_id, torch_dtype=torch.float
  
 pipe = pipe.to("cpu")
 
-prompt = "a puppy cult that worships puppy the streamer"
+prompt = "a brazilian man with short curly hair drawing and a white man with a black beany hat on and a red beard who is coding"
  
 image = pipe(prompt).images[0]
  
 image.show()
-image.save("puppy.png")
+image.save("code.png")
