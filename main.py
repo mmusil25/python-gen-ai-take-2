@@ -13,3 +13,4 @@ prompt = "a puppy cult that worships puppy the streamer"
 image = pipe(prompt).images[0]
  
 image.show()
+image.save("puppy.png")
